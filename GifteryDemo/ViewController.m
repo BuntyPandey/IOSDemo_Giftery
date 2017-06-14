@@ -35,6 +35,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
+
 #pragma mark -
 #pragma mark - General Method
 #pragma mark -
@@ -91,6 +96,7 @@
     if (cell == nil) {
         cell = [[GiftTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"GiftTableViewCell"];
     }
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     Gift *giftObj = [self.giftDataList objectAtIndex:indexPath.row];
     [cell configureCellData:giftObj];
     return cell;

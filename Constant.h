@@ -9,7 +9,7 @@
 #ifndef Constant_h
 #define Constant_h
 
-#define FONT_MAIN_TITLE                        [UIFont fontWithName:@"Avenir Next-Medium" size:20.0f]
+#define FONT_MAIN_TITLE                        [UIFont fontWithName:@"Avenir-Next-Medium" size:20.0f]
 #define FONT_SUB_TITLE                         [UIFont fontWithName:@"Avenir Next-Bold" size:15.0f]
 #define FONT_NAV_TITLE                         [UIFont fontWithName:@"Avenir Next" size:17.0f]
 
